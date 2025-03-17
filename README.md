@@ -38,14 +38,17 @@ Sino esta instalado, puedes instalarlo con:
 ## Uso
 
 Ejecuta el script con las siguientes opciones obligatorias y opcionales.
+
     $ ./LARB3-LuzAngelicaReynaBautista.sh -u <usuario> -d <base_de_datos> -o <arhivo_de_salida>
 
 ◈ Parámetros Obligatorios
+
     • -u → Usuario de la base de datos.
     • -d → Nombre de la base de datos a respaldar.
     • -o → Ruta y nombre del archivo de respaldo.
 
 ◈ Parámetros Opcionales
+
     • -h → Muestra la ayuda del script.
 
 

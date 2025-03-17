@@ -21,6 +21,7 @@ Puedes verificar si "mysqldump" esta instalado ejecutando:
     $ mysqldump --version
 
 Sino esta instalado, puedes instalarlo con:
+
     # Debian/Ubuntu
     $ sudo apt update
     $ sudo apt install mysql-client
@@ -85,7 +86,7 @@ Ejecuta el script con las siguientes opciones obligatorias y opcionales.
     $ bash LARB3-LuzAngelicaReynaBautista.sh -u root -d mysql -o /tmp/LARB3.sql
 
     Nota:
-    Si deseas ejecutar el comando con './LARB3-LuzAngelicaReynaBautista.sh' en lugar de 'bash LARB3-LuzAneglicaReynaBautista.sh" necesitas permisos de ejecución.
+    Si deseas ejecutar el comando con './LARB3-LuzAngelicaReynaBautista.sh' en lugar de 'bash LARB3-LuzAngelicaReynaBautista.sh" necesitas permisos de ejecución.
     
     Comando para permisos:
     $ chmod +x LARB3-LuzAngelicaReynaBautista.sh

@@ -18,7 +18,8 @@ Antes de ejecutar el script, asegurese de cumplir con los siguientes requisitos:
     - Tener permisos suficientes para acceder y exportar la base de datos.
 
 Puedes verificar si "mysqldump" esta instalado ejecutando:
-    mysqldump --version
+```bash
+mysqldump --version
 
 
 ## Instalación

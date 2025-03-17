@@ -51,6 +51,41 @@ Ejecuta el script con las siguientes opciones obligatorias y opcionales.
 
     • -h → Muestra la ayuda del script.
 
+## Ejemplos de Ejecución
 
+### 1. Respaldo básico con archivo de salida especificado
 
+    $ ./LARB3-LuzAngelicaReynaBautista.sh -u root -d mysql -o /tmp/LARB3.sql
 
+📌 Salida esperada:
+    
+    Introduce la contraseña para el usuario 'root': 
+    Iniciando respaldo...
+    Usuario: root
+    Base de datos: mysql
+    Archivo de salida: /tmp/LARB3.sql
+    Backup exitoso: /tmp/LARB3.sql
+
+### 2. Mostrar la ayuda del script
+
+    $ ./LARB3-LuzAngelicaReynaBautista.sh -h
+
+📌 Salida esperada:
+    
+    COMANDO ESPERADO:
+    $ bash LARB3-LuzAngelicaReynaBautista.sh -u <USUARIO> -d <BASE_DE_DATOS> -o <RUTA_ARCHIVO_SALIDA>
+
+    Opciones:
+    - u Usuario de la base de datos (OBLIGATORIO)
+    - d Nombre de la base de datos (OBLIGATORIO)
+    - o Ruta y nombre del archivo de respaldo (OBLIGATORIO)
+    - h Mostrar esta ayuda
+    
+    Ejemplo: 
+    $ bash LARB3-LuzAngelicaReynaBautista.sh -u root -d mysql -o /tmp/LARB3.sql
+
+    Nota:
+    Si deseas ejecutar el comando con './LARB3-LuzAngelicaReynaBautista.sh' en lugar de 'bash LARB3-LuzAneglicaReynaBautista.sh" necesitas permisos de ejecución.
+    
+    Comando para permisos:
+    $ chmod +x LARB3-LuzAngelicaReynaBautista.sh
